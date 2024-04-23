@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''
-Description: Measures the total execution
-time for wait_n from the previous file
+Description: Measures the total execution time
+for wait_n from the previous file
 and returns the average time per operation.
 '''
 
