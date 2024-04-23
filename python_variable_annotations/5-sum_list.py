@@ -6,6 +6,7 @@ It calculates the sum of a list of floats.
 
 from typing import List
 
+
 def sum_list(input_list: List[float]) -> float:
     """
     Calculate the sum of all floats in a list.
@@ -17,6 +18,7 @@ def sum_list(input_list: List[float]) -> float:
     float: The total sum of the list elements.
     """
     return sum(input_list)
+
 
 if __name__ == "__main__":
     sum_list_function = __import__('5-sum_list').sum_list
