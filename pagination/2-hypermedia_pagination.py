@@ -53,7 +53,7 @@ class Server:
                 data - dataset page
                 next_page - number of next page if there is one
                 prev_page - number of previous page if there is one
-                total_pages - total number of pages 
+                total_pages - total number of pages
                 '''
         page_data = self.get_page(page, page_size)
         total_data = len(self.dataset())
