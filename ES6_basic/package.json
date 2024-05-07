@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node 0-main.js",
-    "dev": "babel-node 0-main.js"
+    "start": "babel-node",
+    "dev": "babel-node"
   },
   "keywords": [],
   "author": "",
