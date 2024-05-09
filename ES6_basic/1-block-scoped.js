@@ -1,18 +1,13 @@
-// 1-block-scoped.js
-
 export default function taskBlock(trueOrFalse) {
-    // Use let for block-scoped variables
-    let task = false;
-    let task2 = true;
+    // Initialize task variables with default values
+    const task = false;
+    const task2 = true;
   
     if (trueOrFalse) {
-      // Variables declared with let are scoped to the if block
-      let task = true;
-      let task2 = false;
-      console.log(`Inside block: [${task}, ${task2}]`); // For debugging (optional)
+      // Update task variables based on the input parameter
+      const task = true;
+      const task2 = false;
     }
   
-    // Outer task and task2 will remain unchanged by the inner block
     return [task, task2];
   }
-  
