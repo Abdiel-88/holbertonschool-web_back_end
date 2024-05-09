@@ -5,7 +5,7 @@
   "description": "ES6 Classes project",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js '0-classroom.js'",
     "check-lint": "eslint *.js",
     "dev": "npx babel-node",
     "test": "jest",
