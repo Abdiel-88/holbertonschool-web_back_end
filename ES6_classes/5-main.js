@@ -9,7 +9,7 @@ class TestBuilding extends Building {}
 
 // Attempt to create an instance of TestBuilding without overriding the method
 try {
-    new TestBuilding(200);
+  new TestBuilding(200);
 } catch (err) {
-    console.log(err.message);
+  console.log(err.message);
 }
